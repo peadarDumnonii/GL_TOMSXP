@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="crypt.ElGamalEngineTestK" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-11-26T10:36:34" hostname="rexmint" time="0.351">
+  <properties/>
+  <testcase name="badParamsException1" classname="crypt.ElGamalEngineTestK" time="0.001"/>
+  <testcase name="badParamsException2" classname="crypt.ElGamalEngineTestK" time="0.001"/>
+  <testcase name="performTest" classname="crypt.ElGamalEngineTestK" time="0.349"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="protocol.impl.sigma.UtilsTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-11-26T10:36:58" hostname="rexmint" time="0.074">
+  <properties/>
+  <testcase name="negativeLimitTest" classname="protocol.impl.sigma.UtilsTest" time="0.0"/>
+  <testcase name="zeroRandTest" classname="protocol.impl.sigma.UtilsTest" time="0.003"/>
+  <testcase name="toHexTest" classname="protocol.impl.sigma.UtilsTest" time="0.066"/>
+  <testcase name="randGetOneTest" classname="protocol.impl.sigma.UtilsTest" time="0.003"/>
+  <testcase name="randTest" classname="protocol.impl.sigma.UtilsTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[nov. 26, 2017 11:36:58 AM net.jxta.logging.Logging logCheckedSevere
+GRAVE: Line 2035 net.jxta.impl.rendezvous.rpv.PeerView$WatchdogTask.run()
+Uncaught Throwable in thread :JxtaWorker-5
+java.io.IOException: Failed to write Adv/cbid-1D97D603F9654D6CB29EE8AC95440E3E65E17D7217BE48A1A16E9D7AE24AE1BA65E17D7217BEA8A1616E9D7AE24AE1BAB1AD6CB101 300000 150000
+Line 760 net.jxta.impl.cm.XIndiceAdvertisementCache.save()
+Line 270 net.jxta.impl.cm.CacheManager.save()
+Line 735 net.jxta.impl.discovery.DiscoveryServiceImpl.publish()
+Line 1994 net.jxta.impl.rendezvous.rpv.PeerView$WatchdogTask.run()
+Line 17 net.jxta.impl.util.threads.RunnableAsCallableWrapper.call()
+Line 50 net.jxta.impl.util.threads.RunMetricsWrapper.call()
+Line 34 net.jxta.impl.util.threads.QueueTimeRunMetricsWrapper.call()
+Line 93 net.jxta.impl.util.threads.RunMetricsWrapper.run()
+Line 9 net.jxta.impl.util.threads.QueueTimeRunMetricsWrapper.run()
+Line 1149 java.util.concurrent.ThreadPoolExecutor.runWorker()
+Line 624 java.util.concurrent.ThreadPoolExecutor$Worker.run()
+Line 748 java.lang.Thread.run()
+
+]]></system-err>
+</testsuite>

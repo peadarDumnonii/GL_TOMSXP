@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="protocol.impl.sigma.SenderReceiverTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-11-26T10:36:58" hostname="rexmint" time="0.056">
+  <properties/>
+  <testcase name="sendingTest" classname="protocol.impl.sigma.SenderReceiverTest" time="0.056"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[nov. 26, 2017 11:36:58 AM net.jxta.logging.Logging logCheckedSevere
+GRAVE: Line 2035 net.jxta.impl.rendezvous.rpv.PeerView$WatchdogTask.run()
+Uncaught Throwable in thread :JxtaWorker-5
+java.io.IOException: Failed to write Adv/cbid-FADFF588E2A14FF4A1A1F0598D1E42D4583893E0F97647378F52BC0D5A043340583893E0F976D7374F523C0D5A043340222947B701 300000 150000
+Line 760 net.jxta.impl.cm.XIndiceAdvertisementCache.save()
+Line 270 net.jxta.impl.cm.CacheManager.save()
+Line 735 net.jxta.impl.discovery.DiscoveryServiceImpl.publish()
+Line 1994 net.jxta.impl.rendezvous.rpv.PeerView$WatchdogTask.run()
+Line 17 net.jxta.impl.util.threads.RunnableAsCallableWrapper.call()
+Line 50 net.jxta.impl.util.threads.RunMetricsWrapper.call()
+Line 34 net.jxta.impl.util.threads.QueueTimeRunMetricsWrapper.call()
+Line 93 net.jxta.impl.util.threads.RunMetricsWrapper.run()
+Line 9 net.jxta.impl.util.threads.QueueTimeRunMetricsWrapper.run()
+Line 1149 java.util.concurrent.ThreadPoolExecutor.runWorker()
+Line 624 java.util.concurrent.ThreadPoolExecutor$Worker.run()
+Line 748 java.lang.Thread.run()
+
+nov. 26, 2017 11:36:58 AM net.jxta.logging.Logging logCheckedSevere
+GRAVE: Line 2035 net.jxta.impl.rendezvous.rpv.PeerView$WatchdogTask.run()
+Uncaught Throwable in thread :JxtaWorker-5
+java.io.IOException: Failed to write Adv/cbid-17F3467DB103403EA735CDD6DA9A32C141D6816EAB3A4741A43CE58D7BD576C441D6816EAB3AA741243C658D7BD576C4854F359601 300000 150000
+Line 760 net.jxta.impl.cm.XIndiceAdvertisementCache.save()
+Line 270 net.jxta.impl.cm.CacheManager.save()
+Line 735 net.jxta.impl.discovery.DiscoveryServiceImpl.publish()
+Line 1994 net.jxta.impl.rendezvous.rpv.PeerView$WatchdogTask.run()
+Line 17 net.jxta.impl.util.threads.RunnableAsCallableWrapper.call()
+Line 50 net.jxta.impl.util.threads.RunMetricsWrapper.call()
+Line 34 net.jxta.impl.util.threads.QueueTimeRunMetricsWrapper.call()
+Line 93 net.jxta.impl.util.threads.RunMetricsWrapper.run()
+Line 9 net.jxta.impl.util.threads.QueueTimeRunMetricsWrapper.run()
+Line 1149 java.util.concurrent.ThreadPoolExecutor.runWorker()
+Line 624 java.util.concurrent.ThreadPoolExecutor$Worker.run()
+Line 748 java.lang.Thread.run()
+
+]]></system-err>
+</testsuite>

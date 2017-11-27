@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="model.entity.ElGamalKeyTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-11-26T10:36:41" hostname="rexmint" time="0.001">
+  <properties/>
+  <testcase name="setgetKeysTest[0]" classname="model.entity.ElGamalKeyTest" time="0.001"/>
+  <testcase name="undefinedParamTest[0]" classname="model.entity.ElGamalKeyTest" time="0.0"/>
+  <testcase name="paramTest[0]" classname="model.entity.ElGamalKeyTest" time="0.0"/>
+  <testcase name="setgetKeysTest[1]" classname="model.entity.ElGamalKeyTest" time="0.0"/>
+  <testcase name="undefinedParamTest[1]" classname="model.entity.ElGamalKeyTest" time="0.0"/>
+  <testcase name="paramTest[1]" classname="model.entity.ElGamalKeyTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

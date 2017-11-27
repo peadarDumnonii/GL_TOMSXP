@@ -1,0 +1,56 @@
+2017-11-26 13:02:04.069 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2017-11-26 13:02:04.070 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.3.Final
+2017-11-26 13:02:04.084 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2017-11-26 13:02:04.085 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2017-11-26 13:02:04.087 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2017-11-26 13:02:04.088 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2017-11-26 13:02:04.088 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2017-11-26 13:02:04.088 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2017-11-26 13:02:05.161 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J as the default logging framework
+2017-11-26 13:02:05.163 [main] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+2017-11-26 13:02:05.170 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2017-11-26 13:02:05.170 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2017-11-26 13:02:05.171 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2017-11-26 13:02:05.171 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+2017-11-26 13:02:05.171 [main] DEBUG io.netty.util.internal.PlatformDependent - Java version: 8
+2017-11-26 13:02:05.171 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+2017-11-26 13:02:05.171 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2017-11-26 13:02:05.172 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+2017-11-26 13:02:05.260 [main] DEBUG io.netty.util.internal.PlatformDependent - Javassist: available
+2017-11-26 13:02:05.260 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+2017-11-26 13:02:05.260 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-11-26 13:02:05.260 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2017-11-26 13:02:05.276 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2017-11-26 13:02:05.276 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-11-26 13:02:05.289 [main] DEBUG io.netty.util.internal.JavassistTypeParameterMatcherGenerator - Generated: io.netty.util.internal.__matchers__.net.tomp2p.message.MessageMatcher
+2017-11-26 13:02:05.307 [pool-2-thread-1] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x1959c91eb06decae (took 0 ms)
+2017-11-26 13:02:05.325 [pool-2-thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: unpooled
+2017-11-26 13:02:05.325 [pool-2-thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+2017-11-26 13:02:05.341 [NETTY-TOMP2P - worker-client/server - -1-1] DEBUG io.netty.util.internal.PlatformDependent - UID: 1000
+2017-11-26 13:02:05.348 [pool-2-thread-1] DEBUG io.netty.util.NetUtil - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+2017-11-26 13:02:05.348 [pool-2-thread-1] DEBUG io.netty.util.NetUtil - /proc/sys/net/core/somaxconn: 128
+2017-11-26 13:02:05.371 [main] ERROR java.net.InetAddress - java.net.UnknownHostException: addr is of illegal length
+addr is of illegal length
+java.net.InetAddress.getByAddress(InetAddress.java:1042)
+java.net.InetAddress.getByAddress(InetAddress.java:1439)
+network.impl.tp2p.Tp2pPeer.bootstrap(Tp2pPeer.java:105)
+network.impl.tp2p.Tp2pPeer.start(Tp2pPeer.java:51)
+network.factories.PeerFactory.createAndStartPeer(PeerFactory.java:167)
+network.factories.PeerFactory.createDefaultAndStartPeerForTest(PeerFactory.java:132)
+network.factories.PeerFactory.createDefaultAndStartPeerForTest(PeerFactory.java:90)
+controller.Application.runForTests(Application.java:56)
+controller.Application.main(Application.java:67)
+
+2017-11-26 13:02:05.371 [main] ERROR java.net.InetAddress - java.net.UnknownHostException: addr is of illegal length
+addr is of illegal length
+java.net.InetAddress.getByAddress(InetAddress.java:1042)
+java.net.InetAddress.getByAddress(InetAddress.java:1439)
+network.impl.tp2p.Tp2pPeer.bootstrap(Tp2pPeer.java:105)
+network.impl.tp2p.Tp2pPeer.start(Tp2pPeer.java:51)
+network.factories.PeerFactory.createAndStartPeer(PeerFactory.java:167)
+network.factories.PeerFactory.createDefaultAndStartPeerForTest(PeerFactory.java:132)
+network.factories.PeerFactory.createDefaultAndStartPeerForTest(PeerFactory.java:90)
+controller.Application.runForTests(Application.java:56)
+controller.Application.main(Application.java:67)
+
+2017-11-26 13:02:05.950 [Thread-2] DEBUG rest.impl.JettyRestServer - HTTPS context

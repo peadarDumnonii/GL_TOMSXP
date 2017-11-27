@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="protocol.impl.sigma.SenderTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-11-26T10:36:56" hostname="rexmint" time="0.073">
+  <properties/>
+  <testcase name="getKeyTest" classname="protocol.impl.sigma.SenderTest" time="0.006"/>
+  <testcase name="schnorrResponseTest" classname="protocol.impl.sigma.SenderTest" time="0.023"/>
+  <testcase name="CCEResponseTest" classname="protocol.impl.sigma.SenderTest" time="0.044"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

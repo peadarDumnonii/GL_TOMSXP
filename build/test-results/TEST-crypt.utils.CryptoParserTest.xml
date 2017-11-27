@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="crypt.utils.CryptoParserTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-11-26T10:36:36" hostname="rexmint" time="0.289">
+  <properties/>
+  <testcase name="test_A_HashUser" classname="crypt.utils.CryptoParserTest" time="0.019"/>
+  <testcase name="test_B_SignuatureUser" classname="crypt.utils.CryptoParserTest" time="0.107"/>
+  <testcase name="test_C_signatureItem" classname="crypt.utils.CryptoParserTest" time="0.078"/>
+  <testcase name="test_D_signMessage" classname="crypt.utils.CryptoParserTest" time="0.046"/>
+  <testcase name="test_E_cryptAndDecryptMessage" classname="crypt.utils.CryptoParserTest" time="0.038"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

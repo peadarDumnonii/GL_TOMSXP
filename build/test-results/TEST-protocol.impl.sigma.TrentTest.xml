@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="protocol.impl.sigma.TrentTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2017-11-26T10:36:56" hostname="rexmint" time="0.11">
+  <properties/>
+  <testcase name="getterTest" classname="protocol.impl.sigma.TrentTest" time="0.001"/>
+  <testcase name="sendResponseTest2" classname="protocol.impl.sigma.TrentTest" time="0.059"/>
+  <testcase name="sendResponseTest" classname="protocol.impl.sigma.TrentTest" time="0.035"/>
+  <testcase name="decryptionTest" classname="protocol.impl.sigma.TrentTest" time="0.014"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

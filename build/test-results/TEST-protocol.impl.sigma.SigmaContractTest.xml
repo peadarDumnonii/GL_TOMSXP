@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="protocol.impl.sigma.SigmaContractTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2017-11-26T10:36:56" hostname="rexmint" time="1.582">
+  <properties/>
+  <testcase name="setPartiesTest" classname="protocol.impl.sigma.SigmaContractTest" time="0.111"/>
+  <testcase name="clausesGetterTest" classname="protocol.impl.sigma.SigmaContractTest" time="0.0"/>
+  <testcase name="finalizedTest" classname="protocol.impl.sigma.SigmaContractTest" time="1.099"/>
+  <testcase name="getSetStatusTest" classname="protocol.impl.sigma.SigmaContractTest" time="0.0"/>
+  <testcase name="getSetWishTest" classname="protocol.impl.sigma.SigmaContractTest" time="0.0"/>
+  <testcase name="equalsTest" classname="protocol.impl.sigma.SigmaContractTest" time="0.0"/>
+  <testcase name="addSignatureExceptionTest1" classname="protocol.impl.sigma.SigmaContractTest" time="0.036"/>
+  <testcase name="addSignatureExceptionTest2" classname="protocol.impl.sigma.SigmaContractTest" time="0.035"/>
+  <testcase name="badFinalizationTest" classname="protocol.impl.sigma.SigmaContractTest" time="0.299"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[nov. 26, 2017 11:36:57 AM net.jxta.logging.Logging logCheckedSevere
+GRAVE: Line 2035 net.jxta.impl.rendezvous.rpv.PeerView$WatchdogTask.run()
+Uncaught Throwable in thread :JxtaWorker-2
+java.io.IOException: Failed to write Adv/cbid-59616261646162614E50472050325033F006024230C04E3CB361F30648F1E581F006024230C09E3CF361730648F1E581BD5C63A001 300000 150000
+Line 760 net.jxta.impl.cm.XIndiceAdvertisementCache.save()
+Line 270 net.jxta.impl.cm.CacheManager.save()
+Line 735 net.jxta.impl.discovery.DiscoveryServiceImpl.publish()
+Line 1994 net.jxta.impl.rendezvous.rpv.PeerView$WatchdogTask.run()
+Line 17 net.jxta.impl.util.threads.RunnableAsCallableWrapper.call()
+Line 50 net.jxta.impl.util.threads.RunMetricsWrapper.call()
+Line 34 net.jxta.impl.util.threads.QueueTimeRunMetricsWrapper.call()
+Line 93 net.jxta.impl.util.threads.RunMetricsWrapper.run()
+Line 9 net.jxta.impl.util.threads.QueueTimeRunMetricsWrapper.run()
+Line 1149 java.util.concurrent.ThreadPoolExecutor.runWorker()
+Line 624 java.util.concurrent.ThreadPoolExecutor$Worker.run()
+Line 748 java.lang.Thread.run()
+
+nov. 26, 2017 11:36:57 AM net.jxta.logging.Logging logCheckedSevere
+GRAVE: Line 2035 net.jxta.impl.rendezvous.rpv.PeerView$WatchdogTask.run()
+Uncaught Throwable in thread :JxtaWorker-2
+java.io.IOException: Failed to write Adv/cbid-1EA9112F8F71438D9D51A9F434CAA6E9221ADAD1B5BD48E380A6CA7D0B281508221ADAD1B5BD98E3C0A64A7D0B28150837B447F701 300000 150000
+Line 760 net.jxta.impl.cm.XIndiceAdvertisementCache.save()
+Line 270 net.jxta.impl.cm.CacheManager.save()
+Line 735 net.jxta.impl.discovery.DiscoveryServiceImpl.publish()
+Line 1994 net.jxta.impl.rendezvous.rpv.PeerView$WatchdogTask.run()
+Line 17 net.jxta.impl.util.threads.RunnableAsCallableWrapper.call()
+Line 50 net.jxta.impl.util.threads.RunMetricsWrapper.call()
+Line 34 net.jxta.impl.util.threads.QueueTimeRunMetricsWrapper.call()
+Line 93 net.jxta.impl.util.threads.RunMetricsWrapper.run()
+Line 9 net.jxta.impl.util.threads.QueueTimeRunMetricsWrapper.run()
+Line 1149 java.util.concurrent.ThreadPoolExecutor.runWorker()
+Line 624 java.util.concurrent.ThreadPoolExecutor$Worker.run()
+Line 748 java.lang.Thread.run()
+
+nov. 26, 2017 11:36:57 AM net.jxta.logging.Logging logCheckedSevere
+GRAVE: Line 2035 net.jxta.impl.rendezvous.rpv.PeerView$WatchdogTask.run()
+Uncaught Throwable in thread :JxtaWorker-2
+java.io.IOException: Failed to write Adv/cbid-5B7DCD14A4FA42CD954CF6EB8D4BC35D54D8E506D7514302B6A88FA82A18707854D8E506D751630236A88FA82A1870788EC1493B01 300000 150000
+Line 760 net.jxta.impl.cm.XIndiceAdvertisementCache.save()
+Line 270 net.jxta.impl.cm.CacheManager.save()
+Line 735 net.jxta.impl.discovery.DiscoveryServiceImpl.publish()
+Line 1994 net.jxta.impl.rendezvous.rpv.PeerView$WatchdogTask.run()
+Line 17 net.jxta.impl.util.threads.RunnableAsCallableWrapper.call()
+Line 50 net.jxta.impl.util.threads.RunMetricsWrapper.call()
+Line 34 net.jxta.impl.util.threads.QueueTimeRunMetricsWrapper.call()
+Line 93 net.jxta.impl.util.threads.RunMetricsWrapper.run()
+Line 9 net.jxta.impl.util.threads.QueueTimeRunMetricsWrapper.run()
+Line 1149 java.util.concurrent.ThreadPoolExecutor.runWorker()
+Line 624 java.util.concurrent.ThreadPoolExecutor$Worker.run()
+Line 748 java.lang.Thread.run()
+
+nov. 26, 2017 11:36:57 AM net.jxta.logging.Logging logCheckedSevere
+GRAVE: Line 2035 net.jxta.impl.rendezvous.rpv.PeerView$WatchdogTask.run()
+Uncaught Throwable in thread :JxtaWorker-2
+java.io.IOException: Failed to write Adv/cbid-1D97D603F9654D6CB29EE8AC95440E3E12F38B4EDAE447AB938EF92E2AEB65AE12F38B4EDAE4A7AB938EF92E2AEB65AEAA66F2E401 300000 150000
+Line 760 net.jxta.impl.cm.XIndiceAdvertisementCache.save()
+Line 270 net.jxta.impl.cm.CacheManager.save()
+Line 735 net.jxta.impl.discovery.DiscoveryServiceImpl.publish()
+Line 1994 net.jxta.impl.rendezvous.rpv.PeerView$WatchdogTask.run()
+Line 17 net.jxta.impl.util.threads.RunnableAsCallableWrapper.call()
+Line 50 net.jxta.impl.util.threads.RunMetricsWrapper.call()
+Line 34 net.jxta.impl.util.threads.QueueTimeRunMetricsWrapper.call()
+Line 93 net.jxta.impl.util.threads.RunMetricsWrapper.run()
+Line 9 net.jxta.impl.util.threads.QueueTimeRunMetricsWrapper.run()
+Line 1149 java.util.concurrent.ThreadPoolExecutor.runWorker()
+Line 624 java.util.concurrent.ThreadPoolExecutor$Worker.run()
+Line 748 java.lang.Thread.run()
+
+nov. 26, 2017 11:36:57 AM net.jxta.logging.Logging logCheckedSevere
+GRAVE: Line 2035 net.jxta.impl.rendezvous.rpv.PeerView$WatchdogTask.run()
+Uncaught Throwable in thread :JxtaWorker-2
+java.io.IOException: Failed to write Adv/cbid-7316C8B2E74840D997E9D30BBC28ECF47DBD28272144488AAAF8B830AE9394FD7DBD28272144288AAAF83830AE9394FD7212DE1F01 300000 150000
+Line 760 net.jxta.impl.cm.XIndiceAdvertisementCache.save()
+Line 270 net.jxta.impl.cm.CacheManager.save()
+Line 735 net.jxta.impl.discovery.DiscoveryServiceImpl.publish()
+Line 1994 net.jxta.impl.rendezvous.rpv.PeerView$WatchdogTask.run()
+Line 17 net.jxta.impl.util.threads.RunnableAsCallableWrapper.call()
+Line 50 net.jxta.impl.util.threads.RunMetricsWrapper.call()
+Line 34 net.jxta.impl.util.threads.QueueTimeRunMetricsWrapper.call()
+Line 93 net.jxta.impl.util.threads.RunMetricsWrapper.run()
+Line 9 net.jxta.impl.util.threads.QueueTimeRunMetricsWrapper.run()
+Line 1149 java.util.concurrent.ThreadPoolExecutor.runWorker()
+Line 624 java.util.concurrent.ThreadPoolExecutor$Worker.run()
+Line 748 java.lang.Thread.run()
+
+nov. 26, 2017 11:36:57 AM net.jxta.logging.Logging logCheckedSevere
+GRAVE: Line 2035 net.jxta.impl.rendezvous.rpv.PeerView$WatchdogTask.run()
+Uncaught Throwable in thread :JxtaWorker-2
+java.io.IOException: Failed to write Adv/cbid-FADFF588E2A14FF4A1A1F0598D1E42D48CB8643549F34B3B886EE4A38F08314B8CB8643549F3FB3BC86E64A38F08314B43AE2DCB01 300000 150000
+Line 760 net.jxta.impl.cm.XIndiceAdvertisementCache.save()
+Line 270 net.jxta.impl.cm.CacheManager.save()
+Line 735 net.jxta.impl.discovery.DiscoveryServiceImpl.publish()
+Line 1994 net.jxta.impl.rendezvous.rpv.PeerView$WatchdogTask.run()
+Line 17 net.jxta.impl.util.threads.RunnableAsCallableWrapper.call()
+Line 50 net.jxta.impl.util.threads.RunMetricsWrapper.call()
+Line 34 net.jxta.impl.util.threads.QueueTimeRunMetricsWrapper.call()
+Line 93 net.jxta.impl.util.threads.RunMetricsWrapper.run()
+Line 9 net.jxta.impl.util.threads.QueueTimeRunMetricsWrapper.run()
+Line 1149 java.util.concurrent.ThreadPoolExecutor.runWorker()
+Line 624 java.util.concurrent.ThreadPoolExecutor$Worker.run()
+Line 748 java.lang.Thread.run()
+
+nov. 26, 2017 11:36:57 AM net.jxta.logging.Logging logCheckedSevere
+GRAVE: Line 2035 net.jxta.impl.rendezvous.rpv.PeerView$WatchdogTask.run()
+Uncaught Throwable in thread :JxtaWorker-2
+java.io.IOException: Failed to write Adv/cbid-17F3467DB103403EA735CDD6DA9A32C1FDD79D8B48DD4DCBB7BF8326FA1483A2FDD79D8B48DDEDCB77BF8326FA1483A23412552101 300000 150000
+Line 760 net.jxta.impl.cm.XIndiceAdvertisementCache.save()
+Line 270 net.jxta.impl.cm.CacheManager.save()
+Line 735 net.jxta.impl.discovery.DiscoveryServiceImpl.publish()
+Line 1994 net.jxta.impl.rendezvous.rpv.PeerView$WatchdogTask.run()
+Line 17 net.jxta.impl.util.threads.RunnableAsCallableWrapper.call()
+Line 50 net.jxta.impl.util.threads.RunMetricsWrapper.call()
+Line 34 net.jxta.impl.util.threads.QueueTimeRunMetricsWrapper.call()
+Line 93 net.jxta.impl.util.threads.RunMetricsWrapper.run()
+Line 9 net.jxta.impl.util.threads.QueueTimeRunMetricsWrapper.run()
+Line 1149 java.util.concurrent.ThreadPoolExecutor.runWorker()
+Line 624 java.util.concurrent.ThreadPoolExecutor$Worker.run()
+Line 748 java.lang.Thread.run()
+
+nov. 26, 2017 11:36:57 AM net.jxta.logging.Logging logCheckedSevere
+GRAVE: Line 2035 net.jxta.impl.rendezvous.rpv.PeerView$WatchdogTask.run()
+Uncaught Throwable in thread :JxtaWorker-2
+java.io.IOException: Failed to write Adv/cbid-286E4107B2E34435B16DA813ABE79B3581C033B3FBCB433B8E98FECBA822CFBC81C033B3FBCB833BCE98FECBA822CFBC496AB71901 300000 150000
+Line 760 net.jxta.impl.cm.XIndiceAdvertisementCache.save()
+Line 270 net.jxta.impl.cm.CacheManager.save()
+Line 735 net.jxta.impl.discovery.DiscoveryServiceImpl.publish()
+Line 1994 net.jxta.impl.rendezvous.rpv.PeerView$WatchdogTask.run()
+Line 17 net.jxta.impl.util.threads.RunnableAsCallableWrapper.call()
+Line 50 net.jxta.impl.util.threads.RunMetricsWrapper.call()
+Line 34 net.jxta.impl.util.threads.QueueTimeRunMetricsWrapper.call()
+Line 93 net.jxta.impl.util.threads.RunMetricsWrapper.run()
+Line 9 net.jxta.impl.util.threads.QueueTimeRunMetricsWrapper.run()
+Line 1149 java.util.concurrent.ThreadPoolExecutor.runWorker()
+Line 624 java.util.concurrent.ThreadPoolExecutor$Worker.run()
+Line 748 java.lang.Thread.run()
+
+nov. 26, 2017 11:36:57 AM net.jxta.logging.Logging logCheckedSevere
+GRAVE: Line 2035 net.jxta.impl.rendezvous.rpv.PeerView$WatchdogTask.run()
+Uncaught Throwable in thread :JxtaWorker-2
+java.io.IOException: Failed to write Adv/cbid-BA3BF16D55104844861ABE3E3F7345FE29D124A6C38F45158AB6FB5B539FD9AE29D124A6C38FC5158AB67B5B539FD9AE1EFC9FBC01 300000 150000
+Line 760 net.jxta.impl.cm.XIndiceAdvertisementCache.save()
+Line 270 net.jxta.impl.cm.CacheManager.save()
+Line 735 net.jxta.impl.discovery.DiscoveryServiceImpl.publish()
+Line 1994 net.jxta.impl.rendezvous.rpv.PeerView$WatchdogTask.run()
+Line 17 net.jxta.impl.util.threads.RunnableAsCallableWrapper.call()
+Line 50 net.jxta.impl.util.threads.RunMetricsWrapper.call()
+Line 34 net.jxta.impl.util.threads.QueueTimeRunMetricsWrapper.call()
+Line 93 net.jxta.impl.util.threads.RunMetricsWrapper.run()
+Line 9 net.jxta.impl.util.threads.QueueTimeRunMetricsWrapper.run()
+Line 1149 java.util.concurrent.ThreadPoolExecutor.runWorker()
+Line 624 java.util.concurrent.ThreadPoolExecutor$Worker.run()
+Line 748 java.lang.Thread.run()
+
+nov. 26, 2017 11:36:58 AM net.jxta.logging.Logging logCheckedSevere
+GRAVE: Line 2035 net.jxta.impl.rendezvous.rpv.PeerView$WatchdogTask.run()
+Uncaught Throwable in thread :JxtaWorker-5
+java.io.IOException: Failed to write Adv/cbid-59616261646162614E50472050325033D6AFE372DBC94998947EAE2D1264EFDCD6AFE372DBC9C998947EAE2D1264EFDCBC078C5201 300000 150000
+Line 760 net.jxta.impl.cm.XIndiceAdvertisementCache.save()
+Line 270 net.jxta.impl.cm.CacheManager.save()
+Line 735 net.jxta.impl.discovery.DiscoveryServiceImpl.publish()
+Line 1994 net.jxta.impl.rendezvous.rpv.PeerView$WatchdogTask.run()
+Line 17 net.jxta.impl.util.threads.RunnableAsCallableWrapper.call()
+Line 50 net.jxta.impl.util.threads.RunMetricsWrapper.call()
+Line 34 net.jxta.impl.util.threads.QueueTimeRunMetricsWrapper.call()
+Line 93 net.jxta.impl.util.threads.RunMetricsWrapper.run()
+Line 9 net.jxta.impl.util.threads.QueueTimeRunMetricsWrapper.run()
+Line 1149 java.util.concurrent.ThreadPoolExecutor.runWorker()
+Line 624 java.util.concurrent.ThreadPoolExecutor$Worker.run()
+Line 748 java.lang.Thread.run()
+
+nov. 26, 2017 11:36:58 AM net.jxta.logging.Logging logCheckedSevere
+GRAVE: Line 2035 net.jxta.impl.rendezvous.rpv.PeerView$WatchdogTask.run()
+Uncaught Throwable in thread :JxtaWorker-5
+java.io.IOException: Failed to write Adv/cbid-1EA9112F8F71438D9D51A9F434CAA6E9F953959859794F08900ED0B294C25A99F953959859799F08500E50B294C25A99E2C73DB801 300000 150000
+Line 760 net.jxta.impl.cm.XIndiceAdvertisementCache.save()
+Line 270 net.jxta.impl.cm.CacheManager.save()
+Line 735 net.jxta.impl.discovery.DiscoveryServiceImpl.publish()
+Line 1994 net.jxta.impl.rendezvous.rpv.PeerView$WatchdogTask.run()
+Line 17 net.jxta.impl.util.threads.RunnableAsCallableWrapper.call()
+Line 50 net.jxta.impl.util.threads.RunMetricsWrapper.call()
+Line 34 net.jxta.impl.util.threads.QueueTimeRunMetricsWrapper.call()
+Line 93 net.jxta.impl.util.threads.RunMetricsWrapper.run()
+Line 9 net.jxta.impl.util.threads.QueueTimeRunMetricsWrapper.run()
+Line 1149 java.util.concurrent.ThreadPoolExecutor.runWorker()
+Line 624 java.util.concurrent.ThreadPoolExecutor$Worker.run()
+Line 748 java.lang.Thread.run()
+
+nov. 26, 2017 11:36:58 AM net.jxta.logging.Logging logCheckedSevere
+GRAVE: Line 2035 net.jxta.impl.rendezvous.rpv.PeerView$WatchdogTask.run()
+Uncaught Throwable in thread :JxtaWorker-5
+java.io.IOException: Failed to write Adv/cbid-5B7DCD14A4FA42CD954CF6EB8D4BC35DFE6FBF458C3346158CEF85618DF52D56FE6FBF458C337615CCEF05618DF52D56614B2C01 300000 150000
+Line 760 net.jxta.impl.cm.XIndiceAdvertisementCache.save()
+Line 270 net.jxta.impl.cm.CacheManager.save()
+Line 735 net.jxta.impl.discovery.DiscoveryServiceImpl.publish()
+Line 1994 net.jxta.impl.rendezvous.rpv.PeerView$WatchdogTask.run()
+Line 17 net.jxta.impl.util.threads.RunnableAsCallableWrapper.call()
+Line 50 net.jxta.impl.util.threads.RunMetricsWrapper.call()
+Line 34 net.jxta.impl.util.threads.QueueTimeRunMetricsWrapper.call()
+Line 93 net.jxta.impl.util.threads.RunMetricsWrapper.run()
+Line 9 net.jxta.impl.util.threads.QueueTimeRunMetricsWrapper.run()
+Line 1149 java.util.concurrent.ThreadPoolExecutor.runWorker()
+Line 624 java.util.concurrent.ThreadPoolExecutor$Worker.run()
+Line 748 java.lang.Thread.run()
+
+]]></system-err>
+</testsuite>
